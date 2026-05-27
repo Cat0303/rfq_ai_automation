@@ -1,0 +1,4 @@
+part_number,description,base_price,inventory_level
+P1001,Hex Bolt 3/8,12.50,500
+P2002,Steel Bracket,45.00,200
+P3003,Lock Washer,2.75,1000

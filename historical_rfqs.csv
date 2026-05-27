@@ -1,0 +1,11 @@
+customer_segment,part_category,order_size,lead_time_days,won
+industrial,hardware,50,7,1
+aerospace,bracket,150,14,1
+automotive,washer,20,3,0
+industrial,bracket,200,10,1
+aerospace,hardware,75,21,0
+automotive,washer,120,5,1
+industrial,washer,40,4,1
+aerospace,bracket,30,18,0
+automotive,hardware,250,6,1
+industrial,bracket,90,12,0

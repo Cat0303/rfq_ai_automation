@@ -1,0 +1,64 @@
+rfq_id,customer_name,part_number,quantity,urgency,description,base_price,inventory_level,quoted_price,customer_segment,part_category,order_size,lead_time_days,win_prob,email
+1,Acme Corp,P1001,50,medium,Hex Bolt 3/8,12.5,500,12.5,industrial,hardware,50,7,0.5844973429358582,"Subject: Quote: Hex Bolt 3/8 - Acme Corp
+
+Dear Acme Corp Team,
+
+Thank you for reaching out to us for a price quote. Please find the details of your requested items below:
+
+*   **Item:** Hex Bolt 3/8
+*   **Quantity:** 50
+*   **Unit Price:** $12.50 
+*   **Total Price:** $625.00 (excluding shipping and taxes)
+
+This quote is valid for the next 30 days. If you would like to proceed with this order, or if you have any questions, please let me know and I will be happy to assist you.
+
+Best regards,
+
+[Your Name]  
+Sales Representative  
+[Your Company Name]  
+[Your Contact Information]"
+2,Beta LLC,P2002,150,high,Steel Bracket,45.0,200,47.03,aerospace,bracket,150,14,0.9399708233592351,"Subject: Quote: Steel Brackets for Beta LLC
+
+Dear Beta LLC Team,
+
+Thank you for the opportunity to provide a quote for your upcoming project. Please find the pricing details below for the requested Steel Brackets:
+
+* **Item:** Steel Bracket
+* **Quantity:** 150 units
+* **Unit Price:** $47.03
+* **Total Price:** $7,054.50 (excluding applicable taxes and shipping)
+
+**Terms & Details:**
+* **Quote Validity:** 30 days
+* **Estimated Lead Time:** [Insert Lead Time, e.g., 5-7 business days] 
+
+If you would like to proceed with this order, or if you require any adjustments, please let me know and I will gladly prepare the formal invoice and shipping schedule for you.
+
+Best regards,
+
+**[Your Name]**  
+Sales Representative  
+[Your Company Name]  
+[Your Contact Information]"
+3,Delta Inc,P3003,20,low,Lock Washer,2.75,1000,2.75,automotive,washer,20,3,0.36709953855948924,"Subject: Quotation: Lock Washers for Delta Inc
+
+Dear Delta Inc Team,
+
+Thank you for your inquiry. Please find below the quotation for the requested parts:
+
+* **Part:** Lock Washer
+* **Quantity:** 20
+* **Unit Price:** $2.75
+* **Total Price:** $55.00 (excluding shipping and taxes)
+
+This quote is valid for 30 days. To proceed with this order, or if you have any questions regarding shipping and delivery times, please reply directly to this email. 
+
+We appreciate the opportunity to earn your business.
+
+Best regards,
+
+**[Your Name]**  
+Sales Representative  
+[Your Company Name]  
+[Your Contact Information]"

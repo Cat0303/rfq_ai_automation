@@ -1,0 +1,4 @@
+rfq_id,customer_name,part_number,quantity,urgency
+1,Acme Corp,P1001,50,medium
+2,Beta LLC,P2002,150,high
+3,Delta Inc,P3003,20,low
