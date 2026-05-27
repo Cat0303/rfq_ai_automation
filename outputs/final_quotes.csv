@@ -1,0 +1,225 @@
+rfq_id,customer_name,customer_segment,industry,region,part_number,quantity,urgency,requested_lead_time_days,payment_terms,customer_tier,description,part_category,base_price,standard_cost,inventory_level,standard_lead_time_days,supplier_risk_score,matched_part,unmatched_part,unit_quote_price,total_quote_value,estimated_gross_margin_pct,pricing_notes,price_competitiveness,lead_time_days,order_size,gross_margin_pct,win_probability,priority_status,recommended_action,quote_email,email_source
+RFQ-2026-001,Apex Fabrication Group,Enterprise,Industrial Manufacturing,Northeast,P-1003,65,High,10,Net 30,Strategic,PLC control module,Controls,890.0,575.0,52,14,0.31,True,False,1006.61,65429.65,0.4288,Base catalog price $890.00; High urgency surcharge +10%; Strategic relationship discount -3%; Inventory constraint surcharge +6%,0.884,10,65,0.4288,0.8546,High Priority,Fast-track quote and follow up within 24 hours,"Subject: Quote for RFQ-2026-001 - PLC control module
+
+Hello Apex Fabrication Group Team,
+
+Thank you for the opportunity to quote your request for 65 units of PLC control module. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $1,006.61
+- Total quote value: $65,429.65
+- Estimated lead time: 10 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-002,Brightline Medical Systems,Mid-Market,Healthcare Equipment,Midwest,P-1008,180,Medium,7,Net 45,Preferred,Industrial safety relay,Controls,135.0,82.0,240,6,0.18,True,False,134.66,24238.8,0.3911,Base catalog price $135.00; Medium urgency surcharge +5%; Volume discount -5%,1.003,7,180,0.3911,0.8828,High Priority,Fast-track quote and follow up within 24 hours,"Subject: Quote for RFQ-2026-002 - Industrial safety relay
+
+Hello Brightline Medical Systems Team,
+
+Thank you for the opportunity to quote your request for 180 units of Industrial safety relay. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $134.66
+- Total quote value: $24,238.80
+- Estimated lead time: 7 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-003,Cedar Ridge Foods,Enterprise,Food Processing,Southeast,P-1006,42,High,12,Net 30,Strategic,Food-grade conveyor belt,Conveyance,680.0,438.0,26,16,0.58,True,False,769.09,32301.78,0.4305,Base catalog price $680.00; High urgency surcharge +10%; Strategic relationship discount -3%; Inventory constraint surcharge +6%,0.884,12,42,0.4305,0.5678,Sales Review,Review pricing and delivery terms,"Subject: Quote for RFQ-2026-003 - Food-grade conveyor belt
+
+Hello Cedar Ridge Foods Team,
+
+Thank you for the opportunity to quote your request for 42 units of Food-grade conveyor belt. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $769.09
+- Total quote value: $32,301.78
+- Estimated lead time: 12 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-004,Northstar Energy Services,Enterprise,Energy,Southwest,P-1002,18,Low,28,Net 60,Standard,Hydraulic pump assembly,Hydraulics,1420.0,940.0,34,21,0.64,True,False,1420.0,25560.0,0.338,"Base catalog price $1,420.00",1.0,28,18,0.338,0.3322,Strategic Review,Escalate to manager or adjust offer strategy,"Subject: Quote for RFQ-2026-004 - Hydraulic pump assembly
+
+Hello Northstar Energy Services Team,
+
+Thank you for the opportunity to quote your request for 18 units of Hydraulic pump assembly. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $1,420.00
+- Total quote value: $25,560.00
+- Estimated lead time: 28 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-005,Summit Robotics Lab,Growth,Automation,West,P-1007,9,High,20,Net 30,Preferred,Robotic end effector,Automation,2310.0,1540.0,15,28,0.73,True,False,2642.64,23783.76,0.4172,"Base catalog price $2,310.00; High urgency surcharge +10%; Supplier risk surcharge +4%",0.874,20,9,0.4172,0.1136,Strategic Review,Escalate to manager or adjust offer strategy,"Subject: Quote for RFQ-2026-005 - Robotic end effector
+
+Hello Summit Robotics Lab Team,
+
+Thank you for the opportunity to quote your request for 9 units of Robotic end effector. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $2,642.64
+- Total quote value: $23,783.76
+- Estimated lead time: 20 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-006,Harbor Logistics Partners,Mid-Market,Transportation,Northeast,P-1011,76,Medium,14,Net 45,Standard,Variable frequency drive,Controls,740.0,482.0,48,12,0.36,True,False,823.62,62595.12,0.4148,Base catalog price $740.00; Medium urgency surcharge +5%; Inventory constraint surcharge +6%,0.898,14,76,0.4148,0.4181,Sales Review,Review pricing and delivery terms,"Subject: Quote for RFQ-2026-006 - Variable frequency drive
+
+Hello Harbor Logistics Partners Team,
+
+Thank you for the opportunity to quote your request for 76 units of Variable frequency drive. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $823.62
+- Total quote value: $62,595.12
+- Estimated lead time: 14 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-007,Keystone Waterworks,Public Sector,Utilities,Mid-Atlantic,P-1004,130,Medium,11,Net 60,Preferred,Precision ball valve,Valves,245.0,151.0,120,10,0.27,True,False,259.05,33676.5,0.4171,Base catalog price $245.00; Medium urgency surcharge +5%; Volume discount -5%; Inventory constraint surcharge +6%,0.946,11,130,0.4171,0.5932,Sales Review,Review pricing and delivery terms,"Subject: Quote for RFQ-2026-007 - Precision ball valve
+
+Hello Keystone Waterworks Team,
+
+Thank you for the opportunity to quote your request for 130 units of Precision ball valve. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $259.05
+- Total quote value: $33,676.50
+- Estimated lead time: 11 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-008,Evergreen Packaging Co.,Enterprise,Packaging,West,P-1009,420,Low,8,Net 30,Strategic,Stainless pressure fitting,Fittings,48.0,29.0,650,5,0.15,True,False,42.84,17992.8,0.3231,Base catalog price $48.00; Volume discount -8%; Strategic relationship discount -3%,1.12,8,420,0.3231,0.9868,High Priority,Fast-track quote and follow up within 24 hours,"Subject: Quote for RFQ-2026-008 - Stainless pressure fitting
+
+Hello Evergreen Packaging Co. Team,
+
+Thank you for the opportunity to quote your request for 420 units of Stainless pressure fitting. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $42.84
+- Total quote value: $17,992.80
+- Estimated lead time: 8 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-009,Pioneer Aerospace Components,Enterprise,Aerospace,Southwest,P-1010,14,High,18,Net 45,Strategic,Vision inspection camera,Automation,1760.0,1185.0,22,24,0.69,True,False,1877.92,26290.88,0.369,"Base catalog price $1,760.00; High urgency surcharge +10%; Strategic relationship discount -3%",0.937,18,14,0.369,0.4651,Sales Review,Review pricing and delivery terms,"Subject: Quote for RFQ-2026-009 - Vision inspection camera
+
+Hello Pioneer Aerospace Components Team,
+
+Thank you for the opportunity to quote your request for 14 units of Vision inspection camera. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $1,877.92
+- Total quote value: $26,290.88
+- Estimated lead time: 18 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-010,Metro Transit Maintenance,Public Sector,Transportation,Midwest,P-1012,105,Medium,10,Net 60,Standard,Pneumatic cylinder pack,Pneumatics,315.0,198.0,95,9,0.25,True,False,333.07,34972.35,0.4055,Base catalog price $315.00; Medium urgency surcharge +5%; Volume discount -5%; Inventory constraint surcharge +6%,0.946,10,105,0.4055,0.5976,Sales Review,Review pricing and delivery terms,"Subject: Quote for RFQ-2026-010 - Pneumatic cylinder pack
+
+Hello Metro Transit Maintenance Team,
+
+Thank you for the opportunity to quote your request for 105 units of Pneumatic cylinder pack. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $333.07
+- Total quote value: $34,972.35
+- Estimated lead time: 10 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-011,Clearwater Pharma Supply,Mid-Market,Pharmaceuticals,Northeast,P-1001,260,High,5,Net 30,Preferred,Industrial temperature sensor,Sensors,185.0,112.0,180,7,0.22,True,False,198.45,51597.0,0.4356,Base catalog price $185.00; High urgency surcharge +10%; Volume discount -8%; Inventory constraint surcharge +6%,0.932,5,260,0.4356,0.7209,High Priority,Fast-track quote and follow up within 24 hours,"Subject: Quote for RFQ-2026-011 - Industrial temperature sensor
+
+Hello Clearwater Pharma Supply Team,
+
+Thank you for the opportunity to quote your request for 260 units of Industrial temperature sensor. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $198.45
+- Total quote value: $51,597.00
+- Estimated lead time: 5 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-012,IronPeak Mining Solutions,Enterprise,Mining,West,P-1005,30,Low,24,Net 45,Standard,Servo motor kit,Motion,1125.0,760.0,40,18,0.45,True,False,1125.0,33750.0,0.3244,"Base catalog price $1,125.00",1.0,24,30,0.3244,0.5536,Sales Review,Review pricing and delivery terms,"Subject: Quote for RFQ-2026-012 - Servo motor kit
+
+Hello IronPeak Mining Solutions Team,
+
+Thank you for the opportunity to quote your request for 30 units of Servo motor kit. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $1,125.00
+- Total quote value: $33,750.00
+- Estimated lead time: 24 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-013,Nova Grid Infrastructure,Growth,Utilities,Southeast,P-1002,28,High,16,Net 30,Preferred,Hydraulic pump assembly,Hydraulics,1420.0,940.0,34,21,0.64,True,False,1562.0,43736.0,0.3982,"Base catalog price $1,420.00; High urgency surcharge +10%",0.909,16,28,0.3982,0.1686,Strategic Review,Escalate to manager or adjust offer strategy,"Subject: Quote for RFQ-2026-013 - Hydraulic pump assembly
+
+Hello Nova Grid Infrastructure Team,
+
+Thank you for the opportunity to quote your request for 28 units of Hydraulic pump assembly. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $1,562.00
+- Total quote value: $43,736.00
+- Estimated lead time: 16 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback
+RFQ-2026-014,Lakeside Specialty Foods,Mid-Market,Food Processing,Midwest,P-1006,70,Medium,15,Net 45,Standard,Food-grade conveyor belt,Conveyance,680.0,438.0,26,16,0.58,True,False,756.84,52978.8,0.4213,Base catalog price $680.00; Medium urgency surcharge +5%; Inventory constraint surcharge +6%,0.898,15,70,0.4213,0.2385,Strategic Review,Escalate to manager or adjust offer strategy,"Subject: Quote for RFQ-2026-014 - Food-grade conveyor belt
+
+Hello Lakeside Specialty Foods Team,
+
+Thank you for the opportunity to quote your request for 70 units of Food-grade conveyor belt. Based on the requested quantity, delivery timing, and current catalog availability, we are pleased to provide the following quote:
+
+- Unit quote price: $756.84
+- Total quote value: $52,978.80
+- Estimated lead time: 15 business days
+
+Please let us know if you would like us to review alternate delivery options, volume pricing, or updated payment terms. We would be glad to support the next step in your purchasing process.
+
+Best regards,
+
+Karishma Shaik
+Sales Operations Analytics",Template fallback

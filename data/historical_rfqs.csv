@@ -1,0 +1,651 @@
+customer_segment,industry,part_category,order_size,lead_time_days,urgency,customer_tier,price_competitiveness,supplier_risk_score,gross_margin_pct,won
+Growth,Packaging,Valves,16,8,High,Preferred,0.839,0.114,0.363,1
+Mid-Market,Food Processing,Pneumatics,99,16,Medium,Strategic,0.959,0.147,0.277,1
+Growth,Packaging,Valves,50,10,High,Strategic,0.899,0.228,0.38,0
+Growth,Automation,Pneumatics,111,14,Medium,Standard,0.781,0.385,0.334,0
+Mid-Market,Healthcare Equipment,Fittings,42,15,Medium,Standard,0.903,0.178,0.392,1
+Enterprise,Aerospace,Sensors,23,5,High,Preferred,0.822,0.182,0.345,1
+Mid-Market,Packaging,Motion,79,18,Medium,Preferred,0.806,0.52,0.394,0
+Enterprise,Energy,Valves,35,8,High,Standard,0.787,0.33,0.448,0
+Mid-Market,Automation,Valves,53,3,High,Standard,0.786,0.224,0.437,0
+Enterprise,Transportation,Automation,51,6,Medium,Standard,0.748,0.7,0.3,0
+Public Sector,Transportation,Automation,53,10,Medium,Strategic,0.804,0.799,0.319,0
+Mid-Market,Packaging,Hydraulics,44,15,Medium,Preferred,0.868,0.466,0.321,0
+Mid-Market,Healthcare Equipment,Conveyance,82,28,Low,Standard,0.947,0.743,0.41,0
+Enterprise,Energy,Pneumatics,112,7,Medium,Standard,0.874,0.223,0.324,1
+Mid-Market,Packaging,Motion,14,3,High,Preferred,0.792,0.482,0.357,1
+Growth,Industrial Manufacturing,Pneumatics,19,23,Low,Preferred,0.83,0.192,0.457,1
+Public Sector,Mining,Controls,345,28,Low,Preferred,0.926,0.185,0.31,1
+Mid-Market,Pharmaceuticals,Controls,49,3,High,Standard,0.954,0.136,0.419,0
+Public Sector,Healthcare Equipment,Motion,51,17,Medium,Preferred,0.839,0.583,0.434,0
+Enterprise,Industrial Manufacturing,Hydraulics,52,3,High,Standard,0.892,0.815,0.361,0
+Mid-Market,Automation,Hydraulics,75,13,Low,Standard,0.767,0.717,0.387,0
+Enterprise,Pharmaceuticals,Fittings,71,6,High,Preferred,0.867,0.092,0.435,0
+Enterprise,Mining,Pneumatics,80,24,Low,Preferred,1.039,0.12,0.373,1
+Public Sector,Aerospace,Fittings,88,11,Medium,Preferred,0.679,0.295,0.314,0
+Mid-Market,Mining,Fittings,36,6,Medium,Standard,1.024,0.139,0.299,1
+Growth,Pharmaceuticals,Fittings,53,32,Low,Standard,0.827,0.191,0.336,0
+Enterprise,Healthcare Equipment,Controls,58,25,Low,Standard,0.879,0.251,0.359,0
+Mid-Market,Pharmaceuticals,Controls,40,14,Medium,Strategic,0.978,0.321,0.445,1
+Enterprise,Industrial Manufacturing,Valves,171,17,Medium,Standard,0.932,0.302,0.284,0
+Public Sector,Energy,Fittings,56,6,High,Preferred,0.952,0.138,0.388,1
+Mid-Market,Packaging,Conveyance,18,23,Medium,Standard,0.924,0.619,0.296,0
+Mid-Market,Food Processing,Automation,108,20,Medium,Strategic,1.012,0.918,0.354,0
+Growth,Utilities,Motion,147,18,Medium,Standard,0.932,0.309,0.37,1
+Growth,Utilities,Sensors,29,15,High,Standard,0.766,0.158,0.445,0
+Enterprise,Packaging,Conveyance,42,27,Low,Preferred,0.893,0.719,0.234,0
+Growth,Transportation,Motion,109,22,Medium,Strategic,0.941,0.26,0.35,0
+Mid-Market,Aerospace,Valves,85,7,High,Preferred,0.869,0.166,0.372,0
+Mid-Market,Aerospace,Valves,37,12,High,Preferred,0.943,0.294,0.381,0
+Public Sector,Automation,Hydraulics,15,5,High,Preferred,0.94,0.833,0.386,0
+Enterprise,Mining,Motion,103,7,Medium,Standard,0.869,0.483,0.253,1
+Growth,Industrial Manufacturing,Sensors,77,9,High,Preferred,0.774,0.311,0.409,1
+Growth,Aerospace,Hydraulics,57,12,High,Preferred,0.757,0.626,0.27,0
+Growth,Food Processing,Sensors,81,14,High,Strategic,0.98,0.351,0.356,1
+Growth,Automation,Hydraulics,53,16,High,Standard,0.878,0.736,0.334,0
+Enterprise,Food Processing,Fittings,44,9,Medium,Standard,0.879,0.086,0.344,1
+Mid-Market,Automation,Hydraulics,23,6,High,Standard,0.847,0.768,0.471,0
+Mid-Market,Mining,Motion,79,19,Low,Standard,0.828,0.579,0.408,0
+Mid-Market,Pharmaceuticals,Hydraulics,49,24,Medium,Standard,0.746,0.605,0.441,0
+Growth,Utilities,Conveyance,54,9,Medium,Standard,1.044,0.708,0.38,0
+Growth,Utilities,Fittings,61,10,High,Preferred,0.9,0.056,0.333,0
+Enterprise,Industrial Manufacturing,Controls,141,13,Medium,Standard,0.741,0.064,0.271,1
+Enterprise,Food Processing,Conveyance,46,26,Low,Standard,0.878,0.87,0.359,0
+Mid-Market,Mining,Conveyance,90,20,Low,Standard,0.954,0.66,0.439,0
+Growth,Aerospace,Pneumatics,50,24,Low,Preferred,0.963,0.425,0.374,1
+Enterprise,Food Processing,Pneumatics,113,29,Low,Standard,0.8,0.185,0.258,1
+Growth,Pharmaceuticals,Conveyance,62,9,Medium,Preferred,0.887,0.604,0.389,0
+Mid-Market,Transportation,Automation,55,3,High,Preferred,0.78,0.62,0.312,0
+Public Sector,Utilities,Conveyance,122,20,Low,Standard,0.843,0.561,0.42,0
+Enterprise,Automation,Controls,23,21,Medium,Preferred,0.875,0.444,0.336,0
+Public Sector,Utilities,Fittings,313,3,High,Standard,0.956,0.05,0.423,0
+Enterprise,Pharmaceuticals,Automation,20,5,High,Standard,0.901,0.556,0.381,0
+Public Sector,Food Processing,Valves,43,10,High,Standard,0.856,0.194,0.452,0
+Enterprise,Automation,Sensors,97,8,Medium,Preferred,0.854,0.123,0.389,1
+Mid-Market,Food Processing,Fittings,44,21,Low,Preferred,0.955,0.207,0.337,1
+Growth,Transportation,Valves,16,6,High,Standard,0.743,0.233,0.4,1
+Enterprise,Automation,Automation,79,7,High,Strategic,0.725,0.67,0.394,0
+Public Sector,Food Processing,Motion,30,25,Low,Standard,0.859,0.52,0.342,0
+Mid-Market,Pharmaceuticals,Pneumatics,54,3,High,Preferred,0.895,0.24,0.291,1
+Growth,Food Processing,Conveyance,26,16,Medium,Standard,0.841,0.68,0.511,0
+Growth,Utilities,Valves,47,12,Medium,Strategic,0.988,0.218,0.373,1
+Public Sector,Aerospace,Motion,12,11,Medium,Standard,0.787,0.351,0.252,0
+Mid-Market,Aerospace,Controls,67,19,Low,Standard,0.89,0.409,0.34,0
+Mid-Market,Healthcare Equipment,Sensors,69,17,Low,Strategic,0.949,0.195,0.254,1
+Growth,Transportation,Controls,22,22,Medium,Standard,0.894,0.173,0.396,1
+Mid-Market,Pharmaceuticals,Automation,60,24,Low,Standard,0.889,0.743,0.433,0
+Mid-Market,Transportation,Controls,17,19,Medium,Preferred,0.863,0.295,0.449,0
+Growth,Energy,Controls,325,13,High,Preferred,0.916,0.498,0.329,0
+Mid-Market,Energy,Hydraulics,113,6,Medium,Standard,0.791,0.681,0.385,0
+Growth,Energy,Automation,193,16,Medium,Strategic,0.922,0.711,0.27,1
+Public Sector,Food Processing,Sensors,137,25,Low,Strategic,0.858,0.221,0.342,0
+Enterprise,Packaging,Sensors,94,14,Medium,Standard,0.909,0.05,0.435,0
+Enterprise,Utilities,Conveyance,93,20,Medium,Standard,0.738,0.734,0.373,0
+Mid-Market,Mining,Sensors,48,9,High,Preferred,0.861,0.145,0.358,1
+Public Sector,Food Processing,Hydraulics,89,13,Low,Strategic,0.9,0.501,0.238,1
+Mid-Market,Industrial Manufacturing,Automation,226,6,High,Preferred,0.774,0.575,0.339,1
+Enterprise,Automation,Automation,72,23,Low,Strategic,0.903,0.92,0.347,0
+Mid-Market,Automation,Valves,48,15,Medium,Strategic,0.875,0.379,0.345,1
+Mid-Market,Industrial Manufacturing,Valves,23,8,High,Standard,0.905,0.263,0.372,1
+Mid-Market,Industrial Manufacturing,Motion,32,15,Medium,Standard,0.703,0.537,0.276,0
+Enterprise,Energy,Automation,142,3,High,Strategic,0.907,0.577,0.3,1
+Mid-Market,Automation,Sensors,46,8,High,Preferred,0.924,0.171,0.363,1
+Growth,Aerospace,Controls,75,22,Medium,Standard,1.009,0.266,0.346,0
+Enterprise,Automation,Controls,94,4,High,Standard,0.91,0.35,0.464,0
+Enterprise,Transportation,Motion,55,24,Low,Standard,0.828,0.346,0.359,0
+Mid-Market,Automation,Motion,70,20,Medium,Standard,0.841,0.504,0.471,0
+Enterprise,Healthcare Equipment,Controls,82,26,Low,Standard,0.843,0.39,0.456,0
+Enterprise,Pharmaceuticals,Pneumatics,19,10,High,Preferred,0.793,0.304,0.316,1
+Growth,Packaging,Conveyance,235,3,High,Preferred,0.835,0.596,0.374,0
+Enterprise,Pharmaceuticals,Sensors,56,16,Medium,Standard,0.749,0.207,0.414,0
+Mid-Market,Energy,Conveyance,99,16,Medium,Preferred,0.864,0.396,0.39,1
+Mid-Market,Energy,Pneumatics,55,12,High,Strategic,0.996,0.192,0.441,1
+Mid-Market,Pharmaceuticals,Conveyance,77,7,High,Preferred,0.812,0.679,0.34,0
+Enterprise,Pharmaceuticals,Sensors,123,8,Medium,Preferred,0.785,0.265,0.429,0
+Enterprise,Mining,Automation,54,25,Low,Standard,0.863,0.784,0.407,0
+Growth,Aerospace,Pneumatics,69,20,Medium,Standard,0.794,0.375,0.391,1
+Mid-Market,Packaging,Fittings,128,10,Medium,Preferred,0.887,0.231,0.404,0
+Enterprise,Aerospace,Controls,34,3,High,Strategic,0.882,0.336,0.349,1
+Mid-Market,Packaging,Controls,76,14,Medium,Standard,0.782,0.337,0.46,0
+Enterprise,Automation,Sensors,207,14,Medium,Preferred,0.838,0.211,0.289,0
+Enterprise,Mining,Hydraulics,45,16,Medium,Preferred,0.879,0.812,0.342,1
+Public Sector,Food Processing,Conveyance,114,21,Low,Strategic,0.939,0.547,0.34,0
+Public Sector,Industrial Manufacturing,Pneumatics,101,21,Medium,Standard,0.872,0.367,0.442,1
+Mid-Market,Aerospace,Valves,38,12,High,Strategic,0.831,0.426,0.442,0
+Public Sector,Food Processing,Hydraulics,53,3,High,Standard,0.825,0.682,0.435,0
+Growth,Healthcare Equipment,Sensors,65,4,Medium,Strategic,0.867,0.191,0.281,0
+Enterprise,Automation,Valves,72,8,High,Standard,0.623,0.259,0.505,0
+Enterprise,Packaging,Automation,52,29,Low,Standard,0.909,0.832,0.4,0
+Mid-Market,Healthcare Equipment,Motion,211,7,Medium,Strategic,0.863,0.156,0.265,1
+Growth,Industrial Manufacturing,Conveyance,270,13,Medium,Strategic,0.739,0.531,0.267,1
+Mid-Market,Food Processing,Automation,78,10,High,Preferred,0.921,0.754,0.307,0
+Enterprise,Energy,Sensors,92,23,Low,Strategic,0.937,0.294,0.424,0
+Enterprise,Energy,Hydraulics,34,9,Medium,Standard,0.814,0.818,0.307,0
+Enterprise,Packaging,Fittings,36,16,Medium,Standard,0.787,0.424,0.429,0
+Public Sector,Packaging,Sensors,12,30,Low,Standard,0.938,0.077,0.388,0
+Public Sector,Automation,Sensors,45,17,Medium,Standard,0.753,0.287,0.35,0
+Mid-Market,Energy,Pneumatics,38,17,Medium,Standard,0.953,0.253,0.414,0
+Mid-Market,Utilities,Valves,73,5,Medium,Standard,0.714,0.221,0.371,0
+Mid-Market,Automation,Motion,43,14,Medium,Preferred,0.783,0.543,0.446,0
+Mid-Market,Pharmaceuticals,Hydraulics,64,18,Medium,Preferred,0.883,0.54,0.386,1
+Public Sector,Pharmaceuticals,Valves,71,16,High,Preferred,0.815,0.198,0.4,0
+Growth,Food Processing,Motion,84,14,Medium,Standard,0.878,0.291,0.49,0
+Enterprise,Automation,Automation,132,11,Medium,Preferred,0.78,0.521,0.286,0
+Mid-Market,Healthcare Equipment,Sensors,58,3,High,Preferred,0.599,0.05,0.448,0
+Enterprise,Pharmaceuticals,Fittings,107,6,High,Standard,0.706,0.37,0.431,0
+Enterprise,Utilities,Automation,83,16,Medium,Preferred,0.852,0.826,0.263,1
+Enterprise,Food Processing,Sensors,95,10,High,Standard,1.039,0.443,0.446,0
+Mid-Market,Healthcare Equipment,Valves,32,25,Low,Preferred,0.923,0.547,0.32,0
+Enterprise,Energy,Pneumatics,120,10,High,Standard,0.794,0.48,0.389,0
+Mid-Market,Aerospace,Motion,133,25,Low,Strategic,0.995,0.404,0.278,0
+Growth,Transportation,Fittings,21,9,High,Strategic,0.878,0.147,0.391,0
+Public Sector,Automation,Automation,61,15,Medium,Preferred,0.741,0.5,0.419,0
+Mid-Market,Food Processing,Pneumatics,99,24,Medium,Standard,0.815,0.05,0.413,0
+Public Sector,Industrial Manufacturing,Controls,48,27,Low,Standard,0.883,0.214,0.404,0
+Enterprise,Transportation,Fittings,180,10,Medium,Strategic,0.93,0.314,0.453,0
+Mid-Market,Energy,Automation,200,10,Medium,Standard,0.9,0.732,0.425,0
+Enterprise,Packaging,Pneumatics,20,23,Low,Standard,0.603,0.278,0.366,0
+Mid-Market,Mining,Valves,206,25,Low,Preferred,0.934,0.253,0.488,0
+Mid-Market,Packaging,Sensors,52,7,High,Preferred,0.816,0.396,0.506,0
+Mid-Market,Aerospace,Automation,98,8,High,Standard,0.737,0.829,0.339,0
+Growth,Energy,Hydraulics,12,23,Low,Preferred,0.699,0.617,0.475,0
+Enterprise,Automation,Controls,89,10,Medium,Strategic,0.757,0.377,0.378,1
+Enterprise,Food Processing,Controls,31,18,Low,Preferred,0.745,0.241,0.378,0
+Mid-Market,Automation,Fittings,89,26,Low,Standard,0.856,0.125,0.274,1
+Enterprise,Automation,Hydraulics,15,16,Medium,Standard,0.95,0.438,0.341,0
+Growth,Utilities,Pneumatics,60,20,Medium,Strategic,0.849,0.199,0.396,0
+Mid-Market,Transportation,Valves,29,10,Medium,Preferred,0.699,0.511,0.391,0
+Public Sector,Healthcare Equipment,Pneumatics,64,13,Medium,Standard,0.794,0.414,0.282,0
+Enterprise,Food Processing,Hydraulics,53,20,Low,Strategic,0.946,0.475,0.3,0
+Enterprise,Mining,Pneumatics,29,20,Low,Preferred,0.868,0.137,0.296,1
+Mid-Market,Packaging,Controls,69,3,High,Preferred,0.918,0.109,0.382,0
+Enterprise,Food Processing,Hydraulics,41,6,Medium,Strategic,0.981,0.626,0.201,1
+Mid-Market,Automation,Motion,40,10,High,Preferred,0.852,0.495,0.398,1
+Growth,Industrial Manufacturing,Automation,24,30,Low,Preferred,0.85,0.673,0.388,0
+Growth,Packaging,Controls,74,17,Medium,Standard,0.659,0.202,0.54,0
+Enterprise,Industrial Manufacturing,Hydraulics,169,20,Medium,Preferred,0.999,0.663,0.221,1
+Growth,Transportation,Controls,69,20,Medium,Preferred,0.942,0.317,0.253,0
+Mid-Market,Mining,Automation,49,3,High,Preferred,0.826,0.788,0.383,0
+Mid-Market,Pharmaceuticals,Fittings,104,6,High,Standard,0.88,0.104,0.324,0
+Growth,Aerospace,Pneumatics,64,13,High,Standard,0.856,0.466,0.372,0
+Enterprise,Transportation,Fittings,77,13,Medium,Strategic,0.976,0.204,0.241,1
+Growth,Mining,Sensors,46,20,Low,Preferred,0.79,0.367,0.395,1
+Mid-Market,Automation,Pneumatics,62,21,Low,Preferred,0.889,0.084,0.291,0
+Enterprise,Aerospace,Controls,48,12,Low,Strategic,1.025,0.3,0.353,1
+Mid-Market,Energy,Hydraulics,12,7,High,Strategic,0.893,0.717,0.304,0
+Enterprise,Pharmaceuticals,Hydraulics,24,33,Low,Standard,0.828,0.56,0.452,0
+Mid-Market,Industrial Manufacturing,Automation,68,7,Medium,Strategic,0.957,0.684,0.302,1
+Enterprise,Automation,Fittings,212,8,Medium,Standard,0.766,0.211,0.417,1
+Growth,Food Processing,Controls,44,21,Low,Preferred,0.878,0.205,0.42,0
+Mid-Market,Healthcare Equipment,Conveyance,39,18,Low,Preferred,0.842,0.504,0.302,1
+Enterprise,Energy,Valves,55,8,High,Standard,0.982,0.216,0.339,1
+Public Sector,Mining,Motion,209,15,Medium,Preferred,0.794,0.547,0.216,0
+Mid-Market,Mining,Pneumatics,150,14,Medium,Standard,0.809,0.051,0.395,0
+Enterprise,Food Processing,Conveyance,50,26,Low,Strategic,0.846,0.575,0.323,0
+Enterprise,Food Processing,Pneumatics,144,5,Medium,Preferred,0.839,0.05,0.365,1
+Mid-Market,Aerospace,Pneumatics,57,11,High,Preferred,0.873,0.05,0.447,0
+Enterprise,Mining,Valves,59,8,High,Strategic,0.917,0.36,0.299,1
+Mid-Market,Utilities,Conveyance,35,15,Medium,Preferred,0.713,0.51,0.398,0
+Enterprise,Healthcare Equipment,Automation,115,16,Medium,Standard,0.894,0.633,0.364,1
+Mid-Market,Aerospace,Sensors,24,3,High,Standard,0.895,0.299,0.488,0
+Enterprise,Utilities,Hydraulics,83,5,High,Preferred,0.748,0.745,0.346,0
+Mid-Market,Utilities,Controls,20,22,Medium,Standard,0.85,0.37,0.355,0
+Mid-Market,Food Processing,Conveyance,105,4,High,Strategic,0.712,0.703,0.297,1
+Enterprise,Utilities,Motion,31,20,Medium,Standard,0.819,0.383,0.413,0
+Public Sector,Transportation,Sensors,97,10,High,Strategic,0.631,0.126,0.39,0
+Mid-Market,Transportation,Valves,23,20,Medium,Standard,0.95,0.139,0.274,1
+Enterprise,Mining,Pneumatics,121,5,High,Standard,0.944,0.05,0.363,1
+Growth,Packaging,Valves,38,8,High,Standard,0.67,0.117,0.342,1
+Enterprise,Packaging,Automation,314,16,Medium,Standard,0.806,0.717,0.282,0
+Growth,Industrial Manufacturing,Motion,45,4,High,Preferred,0.821,0.47,0.365,0
+Enterprise,Transportation,Controls,127,22,Low,Preferred,0.975,0.255,0.366,1
+Mid-Market,Aerospace,Sensors,101,21,Low,Standard,0.814,0.24,0.392,0
+Enterprise,Utilities,Motion,25,17,Medium,Standard,0.911,0.497,0.393,0
+Enterprise,Aerospace,Fittings,368,11,Medium,Strategic,0.892,0.096,0.354,1
+Public Sector,Food Processing,Sensors,112,23,Medium,Strategic,0.869,0.068,0.366,0
+Enterprise,Aerospace,Motion,100,20,Low,Standard,0.827,0.452,0.397,0
+Mid-Market,Healthcare Equipment,Controls,48,5,High,Standard,0.79,0.44,0.446,0
+Enterprise,Packaging,Automation,87,27,Low,Preferred,0.757,0.821,0.465,0
+Growth,Industrial Manufacturing,Conveyance,30,17,Low,Strategic,1.09,0.672,0.404,0
+Enterprise,Energy,Fittings,44,3,High,Preferred,0.837,0.05,0.475,1
+Mid-Market,Aerospace,Hydraulics,104,13,Medium,Standard,0.695,0.616,0.303,0
+Enterprise,Energy,Controls,72,19,Low,Standard,0.86,0.05,0.412,1
+Growth,Utilities,Pneumatics,49,10,High,Preferred,0.884,0.174,0.391,0
+Mid-Market,Healthcare Equipment,Automation,38,15,High,Standard,0.69,0.493,0.424,0
+Enterprise,Packaging,Automation,31,9,High,Preferred,0.871,0.614,0.401,1
+Enterprise,Mining,Valves,75,18,Medium,Strategic,0.874,0.296,0.361,1
+Enterprise,Automation,Motion,47,29,Low,Standard,1.02,0.501,0.395,0
+Public Sector,Utilities,Fittings,132,30,Low,Preferred,0.815,0.188,0.355,1
+Mid-Market,Automation,Automation,141,24,Low,Preferred,0.9,0.666,0.357,1
+Public Sector,Food Processing,Pneumatics,38,20,Low,Standard,0.765,0.331,0.361,0
+Mid-Market,Energy,Fittings,178,6,Medium,Strategic,0.837,0.488,0.289,1
+Mid-Market,Aerospace,Valves,72,26,Low,Strategic,0.838,0.328,0.373,1
+Mid-Market,Automation,Sensors,71,5,High,Preferred,0.856,0.205,0.491,1
+Enterprise,Transportation,Valves,17,15,Medium,Standard,0.774,0.248,0.368,0
+Growth,Industrial Manufacturing,Valves,56,17,Medium,Strategic,0.835,0.215,0.364,0
+Public Sector,Aerospace,Motion,70,23,Low,Preferred,0.73,0.451,0.324,0
+Mid-Market,Automation,Automation,83,10,High,Strategic,0.867,0.728,0.48,0
+Enterprise,Pharmaceuticals,Valves,32,14,Medium,Standard,0.823,0.265,0.33,0
+Growth,Utilities,Conveyance,44,11,Medium,Standard,0.93,0.39,0.377,0
+Growth,Food Processing,Motion,28,16,Medium,Standard,0.867,0.49,0.44,0
+Enterprise,Automation,Valves,126,22,Low,Standard,0.82,0.343,0.288,1
+Enterprise,Industrial Manufacturing,Valves,7,33,Low,Standard,0.682,0.117,0.36,0
+Mid-Market,Energy,Fittings,92,35,Low,Standard,0.696,0.234,0.443,0
+Enterprise,Transportation,Automation,140,11,Medium,Preferred,0.825,0.95,0.322,1
+Growth,Aerospace,Controls,48,15,Medium,Standard,0.842,0.516,0.451,0
+Enterprise,Energy,Motion,92,10,High,Preferred,0.788,0.415,0.503,0
+Enterprise,Packaging,Controls,103,22,Medium,Standard,0.914,0.05,0.389,0
+Enterprise,Automation,Hydraulics,74,28,Low,Standard,0.889,0.95,0.448,0
+Growth,Pharmaceuticals,Valves,33,20,Low,Preferred,0.883,0.249,0.443,0
+Growth,Packaging,Automation,13,9,High,Strategic,0.982,0.728,0.427,0
+Public Sector,Transportation,Valves,212,13,Medium,Preferred,0.917,0.404,0.301,1
+Enterprise,Aerospace,Automation,11,20,Low,Strategic,0.868,0.771,0.342,0
+Growth,Pharmaceuticals,Conveyance,44,18,Medium,Preferred,0.826,0.387,0.412,0
+Enterprise,Industrial Manufacturing,Hydraulics,29,14,Medium,Preferred,0.898,0.587,0.315,0
+Growth,Food Processing,Conveyance,107,3,High,Preferred,0.805,0.476,0.396,0
+Mid-Market,Energy,Sensors,23,21,Medium,Standard,0.795,0.353,0.339,0
+Growth,Industrial Manufacturing,Automation,50,20,Medium,Standard,0.765,0.722,0.496,0
+Enterprise,Mining,Sensors,75,10,Medium,Strategic,0.911,0.191,0.276,1
+Public Sector,Mining,Fittings,122,28,Medium,Preferred,0.811,0.248,0.329,0
+Growth,Packaging,Controls,37,24,Low,Strategic,0.815,0.234,0.395,1
+Enterprise,Packaging,Controls,28,4,High,Standard,0.941,0.199,0.386,1
+Mid-Market,Energy,Pneumatics,108,24,Low,Strategic,0.917,0.141,0.228,1
+Enterprise,Industrial Manufacturing,Pneumatics,68,14,Medium,Preferred,0.91,0.238,0.356,1
+Enterprise,Healthcare Equipment,Motion,41,11,Medium,Strategic,1.041,0.542,0.39,1
+Public Sector,Energy,Controls,84,17,Medium,Standard,0.895,0.404,0.447,0
+Mid-Market,Packaging,Conveyance,252,19,Medium,Standard,0.788,0.606,0.387,0
+Growth,Automation,Motion,266,5,Medium,Preferred,0.875,0.424,0.454,1
+Mid-Market,Pharmaceuticals,Valves,105,24,Low,Preferred,0.927,0.299,0.35,0
+Enterprise,Automation,Valves,95,11,High,Strategic,0.832,0.232,0.357,1
+Mid-Market,Aerospace,Controls,64,4,Medium,Standard,0.801,0.231,0.401,0
+Enterprise,Automation,Fittings,72,16,High,Strategic,0.782,0.309,0.422,1
+Mid-Market,Energy,Valves,113,15,Medium,Standard,0.868,0.447,0.376,0
+Mid-Market,Utilities,Hydraulics,144,9,High,Standard,0.904,0.63,0.435,0
+Growth,Mining,Fittings,353,18,Medium,Strategic,0.831,0.206,0.242,0
+Mid-Market,Automation,Conveyance,202,25,Low,Standard,0.748,0.569,0.455,0
+Public Sector,Utilities,Sensors,130,13,Medium,Preferred,0.811,0.148,0.248,0
+Mid-Market,Aerospace,Fittings,42,9,High,Standard,0.824,0.334,0.38,0
+Enterprise,Aerospace,Automation,33,15,Medium,Preferred,0.926,0.703,0.413,1
+Mid-Market,Mining,Fittings,65,10,Medium,Preferred,0.813,0.05,0.43,1
+Enterprise,Utilities,Conveyance,16,3,High,Standard,0.783,0.734,0.409,1
+Mid-Market,Transportation,Motion,41,3,High,Standard,0.844,0.408,0.387,0
+Public Sector,Pharmaceuticals,Sensors,205,17,Medium,Preferred,0.875,0.164,0.337,0
+Mid-Market,Mining,Sensors,59,4,High,Standard,0.859,0.339,0.328,0
+Enterprise,Mining,Controls,32,6,High,Strategic,0.93,0.276,0.437,1
+Mid-Market,Automation,Conveyance,30,13,High,Standard,0.813,0.68,0.422,0
+Public Sector,Energy,Hydraulics,119,3,High,Strategic,0.878,0.631,0.352,1
+Enterprise,Transportation,Hydraulics,184,24,Low,Preferred,0.818,0.432,0.328,0
+Mid-Market,Transportation,Fittings,26,21,Low,Preferred,0.809,0.357,0.359,0
+Growth,Energy,Pneumatics,113,6,Medium,Standard,0.917,0.15,0.436,1
+Enterprise,Industrial Manufacturing,Sensors,94,3,High,Preferred,0.921,0.173,0.386,1
+Public Sector,Aerospace,Controls,41,12,Medium,Standard,0.782,0.089,0.429,0
+Growth,Healthcare Equipment,Hydraulics,144,13,Medium,Preferred,0.811,0.709,0.341,0
+Enterprise,Food Processing,Fittings,216,17,Medium,Standard,0.854,0.071,0.439,0
+Mid-Market,Utilities,Valves,212,11,Medium,Strategic,0.972,0.257,0.302,1
+Mid-Market,Mining,Valves,43,19,Medium,Standard,0.747,0.239,0.428,0
+Enterprise,Aerospace,Conveyance,24,13,Medium,Standard,0.799,0.504,0.357,1
+Enterprise,Food Processing,Sensors,131,16,Medium,Standard,0.746,0.05,0.417,1
+Enterprise,Pharmaceuticals,Pneumatics,455,19,Medium,Preferred,0.752,0.14,0.403,1
+Mid-Market,Automation,Pneumatics,74,29,Low,Strategic,0.927,0.23,0.372,1
+Growth,Pharmaceuticals,Hydraulics,145,22,Medium,Preferred,0.846,0.621,0.425,0
+Public Sector,Utilities,Sensors,35,27,Low,Preferred,1.095,0.05,0.317,1
+Mid-Market,Utilities,Hydraulics,107,11,Medium,Strategic,0.739,0.419,0.271,1
+Public Sector,Pharmaceuticals,Controls,94,12,High,Standard,0.912,0.32,0.451,0
+Enterprise,Healthcare Equipment,Automation,54,26,Low,Strategic,0.823,0.612,0.335,0
+Enterprise,Aerospace,Conveyance,128,7,Medium,Preferred,0.788,0.513,0.406,0
+Enterprise,Food Processing,Pneumatics,105,24,Medium,Strategic,0.699,0.192,0.33,1
+Enterprise,Packaging,Conveyance,138,25,Low,Standard,0.798,0.493,0.32,0
+Enterprise,Mining,Motion,55,19,Medium,Preferred,0.913,0.36,0.415,0
+Enterprise,Energy,Automation,39,30,Low,Preferred,0.817,0.907,0.361,0
+Growth,Automation,Automation,168,18,Medium,Preferred,0.645,0.57,0.334,0
+Mid-Market,Healthcare Equipment,Controls,302,23,Low,Standard,0.772,0.131,0.407,1
+Enterprise,Healthcare Equipment,Pneumatics,68,14,Medium,Preferred,0.797,0.373,0.348,0
+Mid-Market,Automation,Automation,63,19,High,Preferred,0.961,0.637,0.375,0
+Growth,Utilities,Conveyance,82,16,Medium,Preferred,0.878,0.77,0.426,0
+Public Sector,Energy,Valves,28,19,Medium,Standard,0.94,0.55,0.362,0
+Growth,Healthcare Equipment,Fittings,15,6,High,Standard,1.01,0.277,0.451,0
+Growth,Pharmaceuticals,Automation,43,16,Medium,Standard,0.763,0.837,0.268,0
+Enterprise,Food Processing,Sensors,46,8,Medium,Standard,0.868,0.308,0.334,0
+Mid-Market,Utilities,Controls,100,14,Medium,Standard,0.841,0.3,0.334,0
+Mid-Market,Healthcare Equipment,Hydraulics,52,17,Medium,Standard,0.94,0.698,0.429,0
+Enterprise,Energy,Motion,29,21,Low,Preferred,0.824,0.397,0.323,0
+Growth,Utilities,Fittings,70,26,Low,Preferred,0.748,0.181,0.474,0
+Mid-Market,Industrial Manufacturing,Automation,36,3,High,Strategic,0.97,0.709,0.291,1
+Enterprise,Industrial Manufacturing,Sensors,122,19,Low,Strategic,0.951,0.081,0.348,1
+Growth,Food Processing,Sensors,29,20,Low,Standard,0.857,0.379,0.501,0
+Enterprise,Healthcare Equipment,Fittings,72,15,Medium,Standard,0.787,0.241,0.309,1
+Enterprise,Mining,Automation,122,7,High,Standard,0.74,0.63,0.365,0
+Mid-Market,Food Processing,Motion,106,26,Low,Standard,0.873,0.445,0.35,0
+Mid-Market,Industrial Manufacturing,Sensors,30,29,Low,Standard,0.985,0.372,0.42,1
+Growth,Food Processing,Valves,52,28,Low,Standard,0.978,0.315,0.384,1
+Growth,Mining,Automation,44,37,Low,Preferred,0.727,0.617,0.346,0
+Enterprise,Automation,Pneumatics,43,10,Medium,Standard,0.77,0.291,0.346,1
+Mid-Market,Energy,Valves,125,12,High,Strategic,0.919,0.059,0.37,1
+Growth,Industrial Manufacturing,Sensors,117,10,Medium,Preferred,0.823,0.056,0.31,1
+Enterprise,Transportation,Hydraulics,64,3,High,Strategic,0.955,0.767,0.349,1
+Growth,Healthcare Equipment,Motion,96,17,Medium,Standard,0.914,0.409,0.398,1
+Mid-Market,Industrial Manufacturing,Conveyance,150,8,Medium,Standard,1.001,0.636,0.446,0
+Public Sector,Automation,Automation,84,10,Medium,Preferred,0.893,0.639,0.347,1
+Enterprise,Transportation,Conveyance,48,29,Low,Strategic,0.939,0.645,0.381,0
+Enterprise,Healthcare Equipment,Sensors,100,10,Medium,Standard,0.923,0.26,0.306,1
+Growth,Pharmaceuticals,Motion,53,20,Low,Strategic,0.785,0.491,0.43,0
+Public Sector,Aerospace,Controls,48,3,Medium,Standard,0.812,0.331,0.378,0
+Mid-Market,Pharmaceuticals,Automation,16,19,Medium,Standard,0.801,0.574,0.264,0
+Mid-Market,Utilities,Automation,40,8,Medium,Standard,0.791,0.831,0.439,0
+Mid-Market,Automation,Hydraulics,45,17,Medium,Strategic,0.843,0.714,0.327,1
+Public Sector,Transportation,Motion,650,10,High,Standard,0.741,0.512,0.449,0
+Public Sector,Transportation,Valves,158,14,Medium,Standard,0.935,0.374,0.343,1
+Enterprise,Industrial Manufacturing,Automation,138,17,Medium,Standard,0.782,0.744,0.384,0
+Enterprise,Pharmaceuticals,Motion,73,22,Low,Preferred,0.749,0.416,0.387,0
+Growth,Packaging,Sensors,23,9,High,Strategic,0.912,0.192,0.37,1
+Public Sector,Packaging,Pneumatics,54,4,High,Preferred,0.761,0.05,0.351,1
+Enterprise,Utilities,Conveyance,100,15,Medium,Standard,0.864,0.426,0.364,0
+Enterprise,Mining,Fittings,69,18,Medium,Preferred,0.769,0.077,0.335,0
+Enterprise,Industrial Manufacturing,Fittings,66,14,Medium,Preferred,0.725,0.201,0.322,1
+Enterprise,Aerospace,Pneumatics,108,10,Medium,Preferred,0.697,0.322,0.336,0
+Public Sector,Energy,Conveyance,22,18,Medium,Preferred,0.862,0.43,0.442,0
+Mid-Market,Mining,Sensors,77,3,High,Preferred,0.845,0.177,0.384,0
+Mid-Market,Mining,Conveyance,155,38,Low,Preferred,0.867,0.463,0.381,0
+Public Sector,Utilities,Automation,54,3,High,Strategic,0.812,0.723,0.389,0
+Mid-Market,Utilities,Fittings,73,29,Low,Standard,0.804,0.105,0.372,0
+Enterprise,Mining,Sensors,300,22,Medium,Standard,0.866,0.307,0.333,1
+Public Sector,Aerospace,Motion,26,10,High,Standard,0.914,0.284,0.524,0
+Growth,Packaging,Motion,159,8,Medium,Preferred,0.665,0.516,0.384,0
+Growth,Utilities,Motion,145,12,High,Standard,0.875,0.607,0.469,0
+Growth,Mining,Hydraulics,56,22,Medium,Preferred,0.924,0.669,0.348,1
+Growth,Utilities,Fittings,112,15,Medium,Preferred,0.809,0.05,0.441,1
+Growth,Industrial Manufacturing,Controls,43,9,High,Standard,0.869,0.412,0.393,1
+Mid-Market,Mining,Hydraulics,55,3,High,Standard,0.842,0.45,0.496,0
+Mid-Market,Industrial Manufacturing,Pneumatics,186,17,Medium,Preferred,0.934,0.292,0.277,1
+Mid-Market,Healthcare Equipment,Fittings,62,13,Medium,Preferred,0.979,0.199,0.314,0
+Mid-Market,Aerospace,Valves,152,19,Medium,Standard,0.823,0.066,0.366,1
+Growth,Packaging,Hydraulics,27,30,Low,Preferred,0.878,0.62,0.452,0
+Enterprise,Transportation,Hydraulics,92,11,Medium,Standard,0.887,0.631,0.276,0
+Mid-Market,Automation,Controls,74,16,Medium,Standard,0.73,0.276,0.492,0
+Enterprise,Mining,Fittings,270,6,High,Standard,0.765,0.204,0.547,0
+Mid-Market,Industrial Manufacturing,Hydraulics,24,24,Low,Standard,0.693,0.815,0.434,0
+Mid-Market,Food Processing,Automation,45,5,Medium,Standard,0.921,0.654,0.427,1
+Enterprise,Packaging,Controls,36,14,Medium,Standard,0.816,0.41,0.491,0
+Growth,Automation,Automation,42,7,High,Strategic,0.865,0.695,0.289,0
+Growth,Pharmaceuticals,Pneumatics,65,22,Low,Preferred,0.973,0.172,0.279,1
+Public Sector,Food Processing,Controls,132,11,High,Preferred,0.814,0.37,0.399,1
+Growth,Food Processing,Controls,50,7,High,Standard,0.85,0.321,0.323,0
+Enterprise,Transportation,Controls,107,8,Medium,Strategic,0.77,0.051,0.439,1
+Growth,Pharmaceuticals,Motion,77,9,Medium,Preferred,0.743,0.396,0.365,0
+Mid-Market,Transportation,Automation,16,30,Low,Preferred,0.794,0.551,0.317,0
+Public Sector,Food Processing,Pneumatics,40,26,Low,Standard,0.823,0.156,0.377,0
+Mid-Market,Transportation,Conveyance,62,4,High,Standard,0.902,0.59,0.363,1
+Enterprise,Automation,Conveyance,141,14,Medium,Strategic,0.879,0.689,0.406,1
+Mid-Market,Mining,Valves,592,15,Medium,Preferred,0.809,0.225,0.325,0
+Mid-Market,Energy,Controls,19,28,Medium,Strategic,0.748,0.359,0.31,0
+Mid-Market,Packaging,Automation,61,22,Low,Preferred,0.831,0.801,0.333,0
+Growth,Transportation,Controls,87,14,Medium,Standard,0.896,0.354,0.444,0
+Mid-Market,Packaging,Automation,96,29,Low,Preferred,0.78,0.776,0.309,0
+Enterprise,Healthcare Equipment,Conveyance,34,24,Medium,Standard,0.825,0.742,0.313,1
+Public Sector,Healthcare Equipment,Sensors,52,7,Medium,Preferred,0.712,0.307,0.341,0
+Public Sector,Automation,Controls,59,28,Low,Preferred,0.806,0.319,0.216,0
+Enterprise,Utilities,Hydraulics,47,29,Low,Strategic,0.879,0.611,0.3,1
+Growth,Healthcare Equipment,Motion,66,13,Medium,Strategic,0.949,0.425,0.316,1
+Mid-Market,Transportation,Hydraulics,61,15,High,Standard,0.873,0.547,0.425,0
+Public Sector,Packaging,Motion,87,15,Medium,Preferred,0.864,0.672,0.222,0
+Enterprise,Energy,Sensors,25,24,Low,Standard,0.765,0.178,0.287,0
+Enterprise,Healthcare Equipment,Valves,28,3,High,Strategic,0.917,0.467,0.3,1
+Mid-Market,Energy,Controls,48,17,Low,Preferred,0.746,0.138,0.382,1
+Public Sector,Utilities,Hydraulics,89,11,Medium,Standard,0.757,0.788,0.383,0
+Enterprise,Utilities,Valves,12,18,Medium,Standard,0.746,0.143,0.292,0
+Public Sector,Transportation,Valves,22,15,Low,Standard,0.677,0.242,0.525,0
+Growth,Food Processing,Valves,49,3,High,Standard,0.807,0.112,0.397,0
+Enterprise,Mining,Hydraulics,30,8,High,Standard,0.882,0.72,0.459,0
+Enterprise,Mining,Hydraulics,91,16,Medium,Strategic,0.971,0.772,0.341,0
+Mid-Market,Healthcare Equipment,Valves,37,21,Medium,Preferred,0.948,0.354,0.347,1
+Growth,Packaging,Hydraulics,66,8,High,Preferred,0.8,0.591,0.27,0
+Mid-Market,Transportation,Motion,103,6,High,Strategic,0.801,0.395,0.316,0
+Enterprise,Automation,Conveyance,83,20,Low,Preferred,0.862,0.784,0.376,0
+Mid-Market,Mining,Hydraulics,53,19,Low,Standard,0.752,0.476,0.356,0
+Growth,Healthcare Equipment,Controls,55,18,Medium,Strategic,0.967,0.2,0.293,1
+Growth,Automation,Hydraulics,86,31,Low,Standard,0.812,0.909,0.373,0
+Mid-Market,Transportation,Controls,117,8,High,Standard,0.952,0.49,0.404,0
+Growth,Utilities,Motion,25,3,High,Standard,0.79,0.265,0.357,0
+Public Sector,Automation,Valves,108,4,High,Standard,1.004,0.341,0.419,0
+Mid-Market,Healthcare Equipment,Motion,68,10,Medium,Standard,0.825,0.277,0.372,0
+Enterprise,Industrial Manufacturing,Valves,94,17,Medium,Standard,0.901,0.205,0.401,1
+Mid-Market,Industrial Manufacturing,Sensors,42,8,High,Standard,0.759,0.145,0.433,0
+Mid-Market,Industrial Manufacturing,Controls,62,17,Low,Standard,0.635,0.453,0.345,0
+Growth,Healthcare Equipment,Conveyance,74,20,Medium,Strategic,0.812,0.536,0.329,0
+Public Sector,Mining,Fittings,39,26,Low,Standard,0.9,0.05,0.293,0
+Enterprise,Mining,Motion,39,22,Low,Strategic,0.672,0.672,0.383,0
+Growth,Mining,Automation,43,19,Low,Standard,0.932,0.776,0.357,0
+Mid-Market,Industrial Manufacturing,Hydraulics,33,18,Medium,Standard,0.918,0.683,0.375,1
+Enterprise,Utilities,Fittings,91,9,Medium,Standard,0.954,0.141,0.346,0
+Enterprise,Utilities,Hydraulics,59,13,Medium,Strategic,0.713,0.674,0.408,0
+Growth,Automation,Controls,208,3,High,Standard,0.793,0.328,0.372,0
+Growth,Packaging,Sensors,25,17,Low,Preferred,0.868,0.284,0.348,0
+Mid-Market,Packaging,Motion,110,11,Medium,Strategic,0.849,0.459,0.271,1
+Mid-Market,Mining,Fittings,74,26,Medium,Preferred,0.874,0.05,0.348,1
+Public Sector,Mining,Hydraulics,129,3,High,Preferred,0.753,0.709,0.45,0
+Mid-Market,Healthcare Equipment,Conveyance,15,25,Medium,Preferred,0.806,0.645,0.426,0
+Mid-Market,Healthcare Equipment,Valves,87,7,High,Preferred,0.948,0.336,0.373,0
+Growth,Industrial Manufacturing,Fittings,105,9,Medium,Strategic,0.919,0.543,0.292,1
+Growth,Automation,Fittings,118,15,High,Standard,0.863,0.05,0.478,1
+Enterprise,Aerospace,Motion,37,4,High,Standard,0.825,0.324,0.422,0
+Growth,Utilities,Hydraulics,50,14,Low,Preferred,0.929,0.698,0.317,0
+Growth,Packaging,Controls,162,19,Medium,Preferred,0.813,0.227,0.313,1
+Enterprise,Pharmaceuticals,Hydraulics,31,24,Medium,Standard,0.801,0.687,0.402,1
+Mid-Market,Aerospace,Controls,10,21,Low,Preferred,0.981,0.379,0.337,1
+Enterprise,Healthcare Equipment,Automation,21,21,Medium,Preferred,0.878,0.606,0.354,0
+Growth,Aerospace,Automation,159,21,Low,Standard,0.834,0.623,0.391,0
+Mid-Market,Packaging,Sensors,72,9,High,Standard,0.826,0.225,0.408,1
+Enterprise,Transportation,Conveyance,75,24,Low,Preferred,0.817,0.401,0.309,1
+Public Sector,Aerospace,Fittings,28,20,Medium,Preferred,0.768,0.333,0.382,1
+Enterprise,Healthcare Equipment,Fittings,162,5,High,Standard,0.865,0.14,0.379,0
+Public Sector,Utilities,Conveyance,29,7,Medium,Preferred,0.795,0.591,0.294,0
+Mid-Market,Energy,Controls,90,5,High,Standard,0.934,0.239,0.29,0
+Enterprise,Industrial Manufacturing,Conveyance,45,32,Low,Preferred,0.654,0.444,0.408,0
+Mid-Market,Pharmaceuticals,Fittings,88,20,Low,Strategic,0.836,0.207,0.38,1
+Growth,Food Processing,Pneumatics,183,19,Low,Standard,0.868,0.121,0.326,1
+Mid-Market,Aerospace,Conveyance,49,22,Medium,Standard,0.939,0.498,0.375,0
+Mid-Market,Pharmaceuticals,Fittings,63,20,Low,Standard,0.767,0.24,0.381,1
+Mid-Market,Mining,Automation,124,4,High,Preferred,0.907,0.539,0.325,0
+Enterprise,Utilities,Conveyance,20,16,Medium,Preferred,0.888,0.643,0.455,1
+Public Sector,Packaging,Motion,13,9,Medium,Standard,0.749,0.446,0.386,0
+Enterprise,Transportation,Automation,58,17,Medium,Preferred,1.033,0.549,0.382,1
+Enterprise,Pharmaceuticals,Fittings,67,20,Low,Preferred,0.872,0.28,0.414,0
+Enterprise,Packaging,Valves,39,12,High,Standard,0.879,0.484,0.373,0
+Growth,Aerospace,Pneumatics,67,16,Medium,Preferred,0.791,0.302,0.353,0
+Growth,Industrial Manufacturing,Hydraulics,35,19,Low,Strategic,0.761,0.552,0.358,0
+Public Sector,Automation,Conveyance,158,18,Medium,Standard,0.973,0.423,0.341,1
+Mid-Market,Packaging,Motion,61,11,Medium,Standard,0.912,0.603,0.385,0
+Mid-Market,Mining,Pneumatics,126,25,Low,Preferred,0.848,0.123,0.352,1
+Enterprise,Transportation,Controls,205,16,Medium,Standard,0.695,0.392,0.479,1
+Mid-Market,Automation,Sensors,117,16,Medium,Strategic,0.822,0.347,0.228,0
+Enterprise,Packaging,Hydraulics,77,19,Medium,Strategic,0.831,0.542,0.293,0
+Mid-Market,Healthcare Equipment,Sensors,126,18,Medium,Standard,0.871,0.069,0.34,1
+Mid-Market,Packaging,Hydraulics,113,23,Low,Standard,0.839,0.694,0.48,0
+Growth,Aerospace,Automation,49,13,Medium,Standard,0.839,0.801,0.424,0
+Mid-Market,Pharmaceuticals,Automation,19,12,High,Preferred,0.837,0.655,0.465,0
+Enterprise,Transportation,Fittings,53,29,Low,Preferred,0.877,0.19,0.464,0
+Enterprise,Automation,Motion,31,9,Medium,Standard,0.849,0.606,0.356,0
+Mid-Market,Healthcare Equipment,Controls,8,21,High,Standard,0.734,0.163,0.442,0
+Mid-Market,Utilities,Hydraulics,46,20,Low,Preferred,0.713,0.734,0.303,0
+Enterprise,Mining,Hydraulics,6,12,Medium,Standard,0.965,0.515,0.347,1
+Public Sector,Energy,Motion,67,15,Medium,Strategic,0.805,0.358,0.317,1
+Growth,Industrial Manufacturing,Conveyance,36,11,Medium,Standard,0.718,0.588,0.328,0
+Mid-Market,Utilities,Controls,186,17,High,Strategic,0.675,0.379,0.317,0
+Mid-Market,Aerospace,Sensors,93,10,Medium,Strategic,1.02,0.316,0.27,1
+Mid-Market,Healthcare Equipment,Hydraulics,26,23,Low,Preferred,0.937,0.46,0.327,0
+Mid-Market,Food Processing,Automation,119,20,Medium,Strategic,0.941,0.699,0.33,0
+Growth,Automation,Controls,96,10,Medium,Preferred,0.87,0.242,0.38,0
+Mid-Market,Healthcare Equipment,Controls,134,16,Medium,Preferred,0.621,0.24,0.359,1
+Public Sector,Automation,Valves,55,16,Medium,Standard,0.828,0.143,0.362,0
+Enterprise,Automation,Automation,39,12,High,Standard,0.809,0.818,0.407,0
+Mid-Market,Healthcare Equipment,Fittings,123,9,Medium,Preferred,0.933,0.05,0.254,1
+Mid-Market,Transportation,Controls,79,10,Medium,Preferred,0.864,0.386,0.32,1
+Enterprise,Mining,Conveyance,33,7,Medium,Standard,0.833,0.707,0.468,0
+Enterprise,Mining,Controls,119,8,Medium,Standard,0.84,0.181,0.376,0
+Mid-Market,Utilities,Controls,21,24,Low,Strategic,0.898,0.125,0.449,1
+Enterprise,Food Processing,Motion,36,19,Medium,Strategic,0.849,0.492,0.305,1
+Enterprise,Aerospace,Controls,49,17,High,Preferred,0.798,0.124,0.347,0
+Mid-Market,Packaging,Fittings,79,24,Medium,Preferred,0.891,0.05,0.342,0
+Enterprise,Food Processing,Conveyance,123,5,High,Preferred,0.942,0.502,0.366,1
+Growth,Utilities,Controls,20,3,High,Standard,0.938,0.195,0.354,1
+Enterprise,Industrial Manufacturing,Motion,67,28,Low,Standard,0.768,0.554,0.425,0
+Enterprise,Healthcare Equipment,Controls,58,3,High,Preferred,0.802,0.429,0.345,0
+Enterprise,Packaging,Controls,36,19,Low,Standard,1.011,0.294,0.372,1
+Growth,Food Processing,Automation,32,19,Medium,Preferred,0.878,0.657,0.382,0
+Mid-Market,Food Processing,Automation,97,25,Low,Standard,0.801,0.668,0.478,0
+Mid-Market,Industrial Manufacturing,Hydraulics,36,11,High,Standard,0.839,0.629,0.479,0
+Growth,Transportation,Fittings,340,18,Medium,Preferred,0.814,0.299,0.297,1
+Growth,Industrial Manufacturing,Sensors,172,6,Medium,Preferred,0.866,0.232,0.347,1
+Enterprise,Healthcare Equipment,Controls,24,20,Medium,Standard,0.952,0.418,0.398,1
+Mid-Market,Transportation,Conveyance,52,25,Low,Strategic,0.951,0.5,0.248,1
+Enterprise,Pharmaceuticals,Controls,62,30,Low,Strategic,0.869,0.51,0.359,1
+Enterprise,Food Processing,Motion,162,15,Medium,Strategic,0.952,0.698,0.213,1
+Mid-Market,Automation,Valves,43,21,Low,Strategic,0.862,0.285,0.279,1
+Growth,Pharmaceuticals,Valves,50,15,Medium,Strategic,0.961,0.196,0.361,1
+Enterprise,Packaging,Sensors,23,16,Medium,Strategic,0.834,0.27,0.345,1
+Mid-Market,Aerospace,Automation,96,6,High,Standard,0.824,0.839,0.453,0
+Enterprise,Healthcare Equipment,Valves,83,6,Medium,Preferred,0.773,0.079,0.373,1
+Enterprise,Packaging,Hydraulics,70,12,Medium,Strategic,0.848,0.682,0.279,1
+Mid-Market,Utilities,Controls,32,3,High,Standard,0.818,0.232,0.403,0
+Enterprise,Mining,Motion,67,16,Low,Standard,0.764,0.572,0.429,0
+Public Sector,Transportation,Hydraulics,18,21,Medium,Preferred,0.748,0.385,0.4,0
+Growth,Mining,Sensors,40,23,Low,Standard,0.806,0.224,0.375,0
+Enterprise,Food Processing,Automation,59,25,Low,Strategic,0.972,0.675,0.223,1
+Enterprise,Healthcare Equipment,Automation,56,8,High,Strategic,0.871,0.859,0.383,1
+Enterprise,Energy,Motion,59,30,Low,Standard,0.787,0.535,0.336,0
+Public Sector,Aerospace,Pneumatics,70,13,Medium,Preferred,1.015,0.311,0.409,0
+Enterprise,Automation,Sensors,63,10,Medium,Preferred,0.802,0.224,0.399,0
+Mid-Market,Energy,Valves,127,10,High,Preferred,0.811,0.468,0.424,0
+Enterprise,Pharmaceuticals,Controls,65,22,Medium,Preferred,0.947,0.222,0.376,1
+Enterprise,Industrial Manufacturing,Fittings,25,6,High,Strategic,0.903,0.085,0.383,1
+Enterprise,Pharmaceuticals,Fittings,157,15,Medium,Standard,0.756,0.05,0.467,0
+Growth,Pharmaceuticals,Fittings,193,10,Medium,Preferred,0.89,0.229,0.314,1
+Public Sector,Healthcare Equipment,Valves,80,20,Low,Standard,0.769,0.161,0.286,0
+Growth,Automation,Automation,34,7,High,Preferred,0.922,0.95,0.496,0
+Growth,Transportation,Valves,650,25,Low,Preferred,0.833,0.141,0.394,0
+Enterprise,Healthcare Equipment,Valves,107,28,Low,Strategic,0.781,0.44,0.344,1
+Enterprise,Transportation,Hydraulics,28,13,Medium,Strategic,0.815,0.442,0.249,1
+Mid-Market,Energy,Automation,50,11,Medium,Preferred,0.948,0.774,0.307,0
+Enterprise,Automation,Sensors,94,9,High,Preferred,0.814,0.341,0.383,0
+Public Sector,Energy,Pneumatics,324,13,Medium,Standard,0.874,0.175,0.331,0
+Public Sector,Automation,Pneumatics,129,15,Medium,Preferred,0.888,0.377,0.528,0
+Mid-Market,Energy,Controls,212,3,High,Standard,0.725,0.378,0.437,0
+Growth,Packaging,Sensors,104,23,Low,Preferred,0.699,0.102,0.277,0
+Mid-Market,Energy,Controls,109,5,Medium,Preferred,0.804,0.204,0.357,0
+Growth,Transportation,Valves,138,25,Low,Standard,0.784,0.306,0.338,0
+Mid-Market,Energy,Sensors,432,15,High,Standard,0.835,0.232,0.369,0
+Mid-Market,Mining,Pneumatics,171,17,High,Strategic,0.844,0.431,0.367,0
+Enterprise,Transportation,Fittings,61,29,Low,Strategic,0.972,0.147,0.382,0
+Enterprise,Food Processing,Fittings,37,23,Medium,Preferred,0.753,0.153,0.461,0
+Mid-Market,Healthcare Equipment,Hydraulics,248,9,Medium,Standard,0.898,0.772,0.424,1
+Growth,Healthcare Equipment,Fittings,15,20,Low,Preferred,0.97,0.14,0.295,1
+Enterprise,Mining,Hydraulics,37,19,Medium,Preferred,0.862,0.639,0.244,0
+Public Sector,Pharmaceuticals,Hydraulics,54,24,Medium,Preferred,0.995,0.675,0.32,0
+Public Sector,Energy,Controls,43,28,Low,Standard,0.809,0.292,0.389,0
+Growth,Healthcare Equipment,Conveyance,93,29,Low,Preferred,0.835,0.763,0.291,0
+Enterprise,Utilities,Conveyance,43,16,Medium,Standard,0.864,0.481,0.414,1
+Public Sector,Pharmaceuticals,Fittings,55,8,Medium,Strategic,0.896,0.238,0.33,1
+Mid-Market,Aerospace,Sensors,125,5,High,Preferred,0.934,0.374,0.431,0
+Mid-Market,Healthcare Equipment,Motion,142,14,Medium,Standard,0.894,0.306,0.378,1
+Mid-Market,Energy,Hydraulics,22,3,High,Standard,0.742,0.678,0.466,0
+Enterprise,Utilities,Fittings,69,27,Low,Standard,0.928,0.05,0.387,0
+Growth,Packaging,Automation,60,23,Medium,Standard,0.791,0.606,0.323,0
+Mid-Market,Mining,Conveyance,106,9,Medium,Preferred,0.767,0.561,0.342,0
+Mid-Market,Transportation,Motion,56,17,Medium,Standard,0.863,0.393,0.359,0
+Mid-Market,Energy,Automation,115,24,Low,Preferred,0.888,0.646,0.438,0
+Mid-Market,Mining,Sensors,57,13,Medium,Standard,0.906,0.05,0.35,0
+Enterprise,Packaging,Controls,48,9,Medium,Standard,0.851,0.05,0.339,0
+Enterprise,Healthcare Equipment,Conveyance,94,7,Medium,Preferred,0.818,0.581,0.316,1
+Public Sector,Healthcare Equipment,Motion,116,10,Medium,Standard,0.813,0.527,0.427,0
+Mid-Market,Transportation,Sensors,40,14,Medium,Standard,0.863,0.293,0.389,0
+Mid-Market,Utilities,Fittings,77,18,Medium,Preferred,0.852,0.195,0.284,1
+Growth,Transportation,Valves,120,26,Low,Preferred,0.835,0.251,0.325,0
+Mid-Market,Industrial Manufacturing,Sensors,237,17,Medium,Strategic,0.832,0.519,0.257,0
+Enterprise,Pharmaceuticals,Sensors,134,3,High,Preferred,0.919,0.179,0.414,1
+Mid-Market,Energy,Pneumatics,93,22,Medium,Standard,0.805,0.309,0.322,0
+Enterprise,Energy,Sensors,73,12,High,Strategic,0.903,0.24,0.382,1
+Public Sector,Healthcare Equipment,Automation,248,11,High,Standard,0.818,0.871,0.431,0
+Mid-Market,Pharmaceuticals,Fittings,139,4,High,Preferred,0.881,0.067,0.46,1
+Mid-Market,Energy,Automation,469,11,High,Standard,0.811,0.733,0.317,1
+Public Sector,Energy,Automation,116,3,High,Preferred,0.596,0.94,0.464,0
+Public Sector,Pharmaceuticals,Controls,92,12,Medium,Standard,0.914,0.354,0.278,0
+Public Sector,Food Processing,Motion,21,9,High,Standard,0.909,0.455,0.331,0
+Growth,Energy,Hydraulics,70,25,Low,Preferred,0.817,0.66,0.373,0
+Mid-Market,Packaging,Automation,43,12,Medium,Preferred,0.841,0.773,0.371,0
+Enterprise,Packaging,Automation,83,5,High,Preferred,0.783,0.812,0.484,0
+Growth,Transportation,Automation,110,33,Low,Standard,0.817,0.602,0.371,0
+Enterprise,Pharmaceuticals,Controls,44,13,Medium,Preferred,0.877,0.062,0.413,1
+Enterprise,Utilities,Controls,79,19,Medium,Preferred,0.912,0.188,0.178,0
+Growth,Healthcare Equipment,Sensors,152,15,Medium,Standard,0.828,0.277,0.424,0
+Enterprise,Energy,Conveyance,165,3,High,Preferred,0.946,0.42,0.382,1
+Enterprise,Utilities,Hydraulics,18,27,Low,Standard,0.867,0.776,0.452,0
+Enterprise,Transportation,Fittings,40,9,High,Preferred,0.922,0.134,0.398,0
+Mid-Market,Energy,Motion,89,20,High,Standard,0.775,0.05,0.441,0
+Enterprise,Packaging,Hydraulics,64,14,High,Preferred,0.825,0.658,0.412,0
+Enterprise,Utilities,Motion,187,13,Medium,Standard,0.76,0.378,0.295,1
+Enterprise,Healthcare Equipment,Automation,40,20,Medium,Preferred,0.807,0.875,0.352,0
+Enterprise,Pharmaceuticals,Controls,81,26,Low,Standard,0.728,0.19,0.364,0
+Mid-Market,Aerospace,Hydraulics,62,3,High,Standard,0.844,0.573,0.514,0
+Mid-Market,Transportation,Motion,57,25,Low,Standard,0.732,0.503,0.369,1
+Enterprise,Mining,Motion,466,12,Medium,Preferred,0.873,0.403,0.289,1
+Enterprise,Aerospace,Motion,39,3,High,Strategic,0.855,0.446,0.328,1
+Mid-Market,Food Processing,Fittings,207,14,Medium,Preferred,0.917,0.218,0.406,1
+Mid-Market,Packaging,Pneumatics,68,14,High,Preferred,0.918,0.386,0.446,0
+Enterprise,Utilities,Conveyance,20,30,Low,Standard,0.99,0.546,0.415,0
+Growth,Mining,Sensors,161,11,Medium,Standard,0.914,0.16,0.45,0
+Public Sector,Aerospace,Hydraulics,224,17,High,Strategic,0.841,0.684,0.409,0
+Mid-Market,Food Processing,Hydraulics,71,26,Low,Strategic,0.89,0.614,0.432,0
+Enterprise,Aerospace,Fittings,62,16,High,Preferred,0.844,0.166,0.367,1
+Mid-Market,Industrial Manufacturing,Fittings,107,26,Low,Standard,0.835,0.132,0.407,0
+Mid-Market,Energy,Hydraulics,535,8,Medium,Standard,0.84,0.495,0.327,0
+Enterprise,Automation,Sensors,58,16,Low,Strategic,0.8,0.218,0.276,1
+Enterprise,Healthcare Equipment,Conveyance,115,30,Low,Standard,0.924,0.247,0.29,1
+Enterprise,Industrial Manufacturing,Conveyance,18,13,Medium,Strategic,0.803,0.631,0.337,1
+Growth,Food Processing,Fittings,231,24,Medium,Strategic,0.799,0.142,0.397,1
+Enterprise,Food Processing,Pneumatics,60,21,Medium,Preferred,0.811,0.244,0.35,1
+Mid-Market,Healthcare Equipment,Valves,60,11,Low,Standard,0.814,0.355,0.421,0
+Enterprise,Energy,Controls,84,19,Low,Strategic,0.911,0.246,0.259,1
+Mid-Market,Food Processing,Conveyance,134,3,Medium,Preferred,0.756,0.653,0.38,0
+Enterprise,Pharmaceuticals,Valves,124,19,Low,Preferred,0.935,0.276,0.306,1
+Mid-Market,Energy,Pneumatics,62,8,Medium,Preferred,0.844,0.324,0.377,1
+Mid-Market,Food Processing,Pneumatics,206,13,Medium,Standard,0.82,0.297,0.345,0
+Enterprise,Industrial Manufacturing,Automation,25,11,High,Standard,0.901,0.549,0.407,0
+Enterprise,Healthcare Equipment,Valves,28,7,High,Standard,0.779,0.509,0.445,0
+Mid-Market,Industrial Manufacturing,Controls,78,32,Low,Strategic,0.922,0.343,0.359,0
+Enterprise,Transportation,Valves,127,15,Medium,Standard,1.032,0.305,0.237,1
+Mid-Market,Transportation,Valves,91,3,High,Preferred,0.915,0.138,0.305,1
+Growth,Transportation,Conveyance,54,17,Medium,Standard,0.903,0.518,0.436,0
+Mid-Market,Food Processing,Valves,46,9,High,Standard,0.807,0.479,0.42,1
+Mid-Market,Packaging,Controls,78,10,High,Standard,0.707,0.199,0.49,0
+Enterprise,Healthcare Equipment,Sensors,142,13,Medium,Standard,0.917,0.188,0.3,1
+Growth,Automation,Sensors,79,3,High,Standard,0.819,0.327,0.45,0
+Enterprise,Automation,Pneumatics,91,7,High,Strategic,0.823,0.485,0.412,0
+Enterprise,Automation,Pneumatics,56,19,Low,Preferred,0.839,0.173,0.295,0
+Enterprise,Industrial Manufacturing,Automation,147,20,Low,Strategic,0.836,0.744,0.344,0
+Mid-Market,Packaging,Conveyance,334,14,Low,Standard,0.742,0.739,0.373,0
+Mid-Market,Industrial Manufacturing,Controls,71,9,Medium,Strategic,0.945,0.05,0.332,1
+Enterprise,Utilities,Automation,73,6,High,Strategic,0.941,0.916,0.351,0
+Mid-Market,Aerospace,Automation,63,10,High,Strategic,0.891,0.812,0.319,0
+Enterprise,Healthcare Equipment,Conveyance,20,11,Medium,Standard,0.774,0.749,0.436,0
+Public Sector,Energy,Sensors,81,6,High,Preferred,0.784,0.311,0.38,0
+Growth,Healthcare Equipment,Fittings,123,13,Medium,Preferred,0.915,0.153,0.348,1
+Enterprise,Utilities,Conveyance,272,13,Medium,Standard,0.733,0.561,0.371,0
+Enterprise,Energy,Hydraulics,175,30,Low,Preferred,0.812,0.826,0.313,1
+Enterprise,Automation,Automation,45,19,Medium,Strategic,0.892,0.736,0.266,0
+Enterprise,Utilities,Motion,43,9,Medium,Preferred,0.928,0.456,0.374,1
+Mid-Market,Utilities,Valves,650,23,Low,Strategic,0.998,0.255,0.381,1
+Mid-Market,Packaging,Pneumatics,29,3,High,Strategic,0.779,0.284,0.428,0
+Enterprise,Industrial Manufacturing,Controls,46,5,Medium,Standard,0.86,0.146,0.311,0
+Enterprise,Healthcare Equipment,Automation,31,18,High,Standard,0.823,0.829,0.313,0
+Public Sector,Packaging,Conveyance,87,32,Low,Standard,0.806,0.646,0.497,0
+Growth,Aerospace,Automation,75,9,High,Strategic,0.83,0.65,0.501,0
+Growth,Utilities,Hydraulics,58,3,High,Standard,0.882,0.426,0.309,1
+Mid-Market,Transportation,Fittings,111,3,High,Standard,0.844,0.053,0.475,1
+Enterprise,Food Processing,Automation,331,31,Low,Preferred,0.908,0.64,0.35,1
+Enterprise,Pharmaceuticals,Hydraulics,90,15,Medium,Strategic,0.856,0.609,0.301,0
+Growth,Aerospace,Sensors,343,15,Medium,Standard,0.856,0.166,0.344,1
+Public Sector,Packaging,Motion,35,9,Medium,Strategic,1.037,0.537,0.358,1
+Growth,Mining,Sensors,24,23,Low,Standard,0.791,0.266,0.495,0
+Enterprise,Transportation,Pneumatics,34,8,Medium,Preferred,0.912,0.253,0.34,1
+Mid-Market,Food Processing,Conveyance,137,9,Medium,Preferred,0.719,0.589,0.333,0
+Growth,Food Processing,Hydraulics,68,3,Medium,Standard,0.83,0.717,0.391,0

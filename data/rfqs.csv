@@ -1,0 +1,15 @@
+rfq_id,customer_name,customer_segment,industry,region,part_number,quantity,urgency,requested_lead_time_days,payment_terms,customer_tier
+RFQ-2026-001,Apex Fabrication Group,Enterprise,Industrial Manufacturing,Northeast,P-1003,65,High,10,Net 30,Strategic
+RFQ-2026-002,Brightline Medical Systems,Mid-Market,Healthcare Equipment,Midwest,P-1008,180,Medium,7,Net 45,Preferred
+RFQ-2026-003,Cedar Ridge Foods,Enterprise,Food Processing,Southeast,P-1006,42,High,12,Net 30,Strategic
+RFQ-2026-004,Northstar Energy Services,Enterprise,Energy,Southwest,P-1002,18,Low,28,Net 60,Standard
+RFQ-2026-005,Summit Robotics Lab,Growth,Automation,West,P-1007,9,High,20,Net 30,Preferred
+RFQ-2026-006,Harbor Logistics Partners,Mid-Market,Transportation,Northeast,P-1011,76,Medium,14,Net 45,Standard
+RFQ-2026-007,Keystone Waterworks,Public Sector,Utilities,Mid-Atlantic,P-1004,130,Medium,11,Net 60,Preferred
+RFQ-2026-008,Evergreen Packaging Co.,Enterprise,Packaging,West,P-1009,420,Low,8,Net 30,Strategic
+RFQ-2026-009,Pioneer Aerospace Components,Enterprise,Aerospace,Southwest,P-1010,14,High,18,Net 45,Strategic
+RFQ-2026-010,Metro Transit Maintenance,Public Sector,Transportation,Midwest,P-1012,105,Medium,10,Net 60,Standard
+RFQ-2026-011,Clearwater Pharma Supply,Mid-Market,Pharmaceuticals,Northeast,P-1001,260,High,5,Net 30,Preferred
+RFQ-2026-012,IronPeak Mining Solutions,Enterprise,Mining,West,P-1005,30,Low,24,Net 45,Standard
+RFQ-2026-013,Nova Grid Infrastructure,Growth,Utilities,Southeast,P-1002,28,High,16,Net 30,Preferred
+RFQ-2026-014,Lakeside Specialty Foods,Mid-Market,Food Processing,Midwest,P-1006,70,Medium,15,Net 45,Standard
