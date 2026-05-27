@@ -1,5 +1,10 @@
 # AI-Powered RFQ Automation & Sales Quote Intelligence Dashboard
 
+## Live Dashboard
+
+View the live Streamlit dashboard here:  
+https://rfappiautomation-gowqqd6hnnfvjxdhqujs4a.streamlit.app
+
 A professional Streamlit dashboard project that turns synthetic customer RFQs into priced, prioritized, and email-ready sales quote recommendations.
 
 This project is designed for a resume, portfolio, GitHub, and Streamlit Community Cloud demo. It shows how Python, analytics, machine learning, and optional generative AI can support a realistic quote-to-cash business workflow.
