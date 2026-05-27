@@ -16,6 +16,7 @@ This project is designed for a resume, portfolio, GitHub, and Streamlit Communit
 - Automated pricing table with dynamic pricing rules
 - Win probability scoring using scikit-learn
 - Sales priority labels: High Priority, Sales Review, and Strategic Review
+- Live New RFQ Simulator for entering a new quote request and generating an immediate recommendation
 - Plotly charts for quote value, urgency, win probability, customer segment, priority mix, and supplier risk
 - Quote email generator with optional OpenAI support and a template fallback
 - Download button for `final_quotes.csv`
@@ -98,6 +99,8 @@ The app can also read root-level CSV files with the same names for compatibility
 8. Assign priority status and recommended sales actions.
 9. Generate quote emails with a template fallback, or OpenAI when configured.
 10. Save and serve `final_quotes.csv` for download.
+
+The New RFQ Simulator uses the same workflow for a one-row RFQ entered in the dashboard. It does not write simulated records back to the source CSV files.
 
 ## Pricing Logic
 

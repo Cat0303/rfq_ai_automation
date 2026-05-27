@@ -8,6 +8,7 @@ import streamlit as st
 
 from email_generator import generate_email_with_source
 from email_generator import add_emails_to_quotes
+from model_utils import ModelTrainingResult
 from rfq_pipeline import (
     calculate_quote_price,
     load_data,
@@ -82,7 +83,7 @@ def read_doc(file_name: str) -> str:
 
 
 @st.cache_data(show_spinner=False)
-def get_pipeline_outputs() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, dict, str]:
+def get_pipeline_outputs() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, ModelTrainingResult, dict, str]:
     rfqs, parts_catalog, historical_rfqs = load_data()
     merged = merge_rfqs_with_catalog(rfqs, parts_catalog)
     priced = calculate_quote_price(merged)
@@ -97,7 +98,7 @@ def get_pipeline_outputs() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd
         "training_sample_size": model_result.training_sample_size,
         "test_sample_size": model_result.test_sample_size,
     }
-    return rfqs, parts_catalog, historical_rfqs, final_quotes, metrics, str(output_path)
+    return rfqs, parts_catalog, historical_rfqs, final_quotes, model_result, metrics, str(output_path)
 
 
 def filtered_quotes(final_quotes: pd.DataFrame) -> pd.DataFrame:
@@ -382,6 +383,135 @@ def show_email_generator(quotes: pd.DataFrame) -> None:
         st.text_area("Email body", email_body, height=360)
 
 
+def build_simulated_quote(
+    rfq_input: dict[str, object],
+    parts_catalog: pd.DataFrame,
+    model_result: ModelTrainingResult,
+) -> pd.DataFrame:
+    """Run a single entered RFQ through the same dashboard pricing and scoring pipeline."""
+    rfq_df = pd.DataFrame([rfq_input])
+    merged = merge_rfqs_with_catalog(rfq_df, parts_catalog)
+    priced = calculate_quote_price(merged)
+    scored = score_current_rfqs(priced, model_result)
+    email_body, email_source = generate_email_with_source(scored.iloc[0])
+    scored["quote_email"] = email_body
+    scored["email_source"] = email_source
+    return scored
+
+
+def show_new_rfq_simulator(
+    rfqs: pd.DataFrame,
+    parts_catalog: pd.DataFrame,
+    model_result: ModelTrainingResult,
+) -> None:
+    st.subheader("New RFQ Simulator")
+    st.caption(
+        "Enter a new synthetic RFQ and generate a live quote recommendation without changing any source CSV files."
+    )
+
+    segment_options = sorted(rfqs["customer_segment"].dropna().unique())
+    industry_options = sorted(rfqs["industry"].dropna().unique())
+    region_options = sorted(rfqs["region"].dropna().unique())
+    part_options = sorted(parts_catalog["part_number"].dropna().unique())
+    payment_options = sorted(rfqs["payment_terms"].dropna().unique())
+    tier_options = sorted(rfqs["customer_tier"].dropna().unique())
+
+    with st.form("new_rfq_simulator_form", clear_on_submit=False):
+        form_col1, form_col2, form_col3 = st.columns(3)
+
+        with form_col1:
+            customer_name = st.text_input("Customer Name", value="Example Manufacturing Co.")
+            customer_segment = st.selectbox("Customer Segment", segment_options)
+            industry = st.selectbox("Industry", industry_options)
+
+        with form_col2:
+            region = st.selectbox("Region", region_options)
+            part_number = st.selectbox("Part Number", part_options)
+            quantity = st.number_input("Quantity", min_value=1, max_value=10000, value=75, step=1)
+
+        with form_col3:
+            urgency = st.selectbox("Urgency", ["Low", "Medium", "High"], index=1)
+            requested_lead_time_days = st.number_input(
+                "Requested Lead Time Days", min_value=1, max_value=365, value=14, step=1
+            )
+            payment_terms = st.selectbox("Payment Terms", payment_options)
+            customer_tier = st.selectbox("Customer Tier", tier_options)
+
+        submitted = st.form_submit_button("Generate RFQ Result", use_container_width=True)
+
+    if not submitted:
+        st.info("Complete the form and click Generate RFQ Result to simulate pricing and sales prioritization.")
+        return
+
+    rfq_input = {
+        "rfq_id": f"SIM-{pd.Timestamp.now().strftime('%Y%m%d-%H%M%S')}",
+        "customer_name": customer_name.strip() or "New Customer",
+        "customer_segment": customer_segment,
+        "industry": industry,
+        "region": region,
+        "part_number": part_number,
+        "quantity": int(quantity),
+        "urgency": urgency,
+        "requested_lead_time_days": int(requested_lead_time_days),
+        "payment_terms": payment_terms,
+        "customer_tier": customer_tier,
+    }
+
+    simulated_quote = build_simulated_quote(rfq_input, parts_catalog, model_result)
+    result = simulated_quote.iloc[0]
+
+    st.markdown("#### Simulated RFQ Result")
+    kpi1, kpi2, kpi3, kpi4, kpi5 = st.columns(5)
+    kpi1.metric("Unit Quote Price", format_currency(result["unit_quote_price"]))
+    kpi2.metric("Total Quote Value", format_currency(result["total_quote_value"]))
+    kpi3.metric("Win Probability", format_percent(result["win_probability"]))
+    kpi4.metric("Estimated Margin", format_percent(result["estimated_gross_margin_pct"]))
+    kpi5.metric("Priority Status", result["priority_status"])
+
+    detail_col, email_col = st.columns([1, 2])
+    with detail_col:
+        st.markdown("#### Sales Guidance")
+        st.write(f"**Recommended action:** {result['recommended_action']}")
+        st.write(f"**Pricing notes:** {result['pricing_notes']}")
+        st.write(f"**Email source:** {result['email_source']}")
+
+        download_columns = [
+            "rfq_id",
+            "customer_name",
+            "customer_segment",
+            "industry",
+            "region",
+            "part_number",
+            "description",
+            "quantity",
+            "urgency",
+            "requested_lead_time_days",
+            "payment_terms",
+            "customer_tier",
+            "unit_quote_price",
+            "total_quote_value",
+            "estimated_gross_margin_pct",
+            "win_probability",
+            "priority_status",
+            "recommended_action",
+            "pricing_notes",
+            "quote_email",
+            "email_source",
+        ]
+        download_df = simulated_quote[download_columns]
+        st.download_button(
+            label="Download simulated RFQ CSV",
+            data=download_df.to_csv(index=False).encode("utf-8"),
+            file_name=f"{result['rfq_id']}_simulated_quote.csv",
+            mime="text/csv",
+            use_container_width=True,
+        )
+
+    with email_col:
+        st.markdown("#### Generated Quote Email")
+        st.text_area("Simulated quote email", result["quote_email"], height=360)
+
+
 def show_export_center(quotes: pd.DataFrame, output_path: str) -> None:
     st.subheader("Final CSV Download")
     csv_bytes = quotes.to_csv(index=False).encode("utf-8")
@@ -410,7 +540,7 @@ def main() -> None:
         "A professional portfolio project for RFQ automation, pricing analytics, sales prioritization, and AI-assisted quote communication."
     )
 
-    rfqs, parts_catalog, historical_rfqs, final_quotes, metrics, output_path = get_pipeline_outputs()
+    rfqs, parts_catalog, historical_rfqs, final_quotes, model_result, metrics, output_path = get_pipeline_outputs()
     quotes = filtered_quotes(final_quotes)
 
     if quotes.empty:
@@ -424,6 +554,7 @@ def main() -> None:
             "Data Preview",
             "Pricing Table",
             "Win Scoring",
+            "New RFQ Simulator",
             "Charts",
             "Email Generator",
             "CSV Download",
@@ -440,12 +571,14 @@ def main() -> None:
     with tabs[3]:
         show_scoring_summary(quotes)
     with tabs[4]:
-        show_analytics(quotes)
+        show_new_rfq_simulator(rfqs, parts_catalog, model_result)
     with tabs[5]:
-        show_email_generator(final_quotes)
+        show_analytics(quotes)
     with tabs[6]:
-        show_export_center(final_quotes, output_path)
+        show_email_generator(final_quotes)
     with tabs[7]:
+        show_export_center(final_quotes, output_path)
+    with tabs[8]:
         show_resume_summary()
 
 

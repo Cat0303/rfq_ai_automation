@@ -2,7 +2,7 @@
 
 ## 30-Second Explanation
 
-I built an AI-powered RFQ automation dashboard that simulates a quote-to-cash sales operations workflow. It imports synthetic customer RFQs, matches requested parts to a catalog, applies pricing rules, predicts win probability, prioritizes opportunities, and generates quote emails using either OpenAI or a professional fallback template. The goal is to show how analytics and AI can improve pricing consistency, margin visibility, and sales response time.
+I built an AI-powered RFQ automation dashboard that simulates a quote-to-cash sales operations workflow. It imports synthetic customer RFQs, matches requested parts to a catalog, applies pricing rules, predicts win probability, prioritizes opportunities, lets users enter a new RFQ live, and generates quote emails using either OpenAI or a professional fallback template. The goal is to show how analytics and AI can improve pricing consistency, margin visibility, and sales response time.
 
 ## 1-Minute Explanation
 
@@ -16,7 +16,7 @@ The project uses a modular Python structure:
 - `rfq_pipeline.py` loads and validates data, merges RFQs with the parts catalog, applies pricing rules, scores current opportunities, and saves `final_quotes.csv`.
 - `model_utils.py` trains a scikit-learn pipeline with `ColumnTransformer`, `OneHotEncoder`, `StandardScaler`, and `LogisticRegression`.
 - `email_generator.py` uses OpenAI only when `OPENAI_API_KEY` exists and automatically falls back to a professional template.
-- `app.py` provides the Streamlit dashboard, filters, charts, model metrics, download button, email generator, and resume summary.
+- `app.py` provides the Streamlit dashboard, filters, charts, model metrics, New RFQ Simulator, download buttons, email generator, and resume summary.
 
 ## Business Value Explanation
 

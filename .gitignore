@@ -1,4 +1,11 @@
-config* 
-.ipynb_checkpoints/ 
-.env 
-__pycache__/ 
+.env
+.streamlit/secrets.toml
+config.txt
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+outputs/*.csv
+!outputs/.gitkeep
